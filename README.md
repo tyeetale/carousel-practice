@@ -26,3 +26,14 @@ Aside from Expo to work on the app logic, there are certain libraries we can use
 
 - [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 - [Moti (Reanimated 3 under the hood, similiar API as framer-motion)](https://moti.fyi)
+
+# Steps
+
+1. Start with Simple Slide Content
+2. Add Bottom Carousel To Render 15 Images
+3. Create Gesture Controls
+4. Add Animations, specifically the swipe animation
+5. Optomize for Low End Devices
+   a. Assume that Image Load will Take Time (so we have to wait on fetches)
+   b. Paginate Results when given multiple images
+   c. Debounce the image from rendering until the image has not been moved for a while.
