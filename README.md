@@ -37,3 +37,10 @@ Aside from Expo to work on the app logic, there are certain libraries we can use
    a. Assume that Image Load will Take Time (so we have to wait on fetches)
    b. Paginate Results when given multiple images
    c. Debounce the image from rendering until the image has not been moved for a while.
+
+# Known Bugs
+
+1. Bottom Carousel detects wrong Index sometimes
+2. Rendering of all Images is slow --> need to use async & also minimize images
+3. Images are scrolled based on the "middle" element of the carousel (you have to press them instead)
+4. No gesture to "bounce back" once you get to the end
